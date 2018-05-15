@@ -96,6 +96,7 @@ struct ModelRenderInfo_t
 {
 	Vector                  origin;
 	QAngle                  angles;
+	char pad[0x4];
 	IClientRenderable*      pRenderable;
 	const model_t*          pModel;
 	const matrix3x4_t*      pModelToWorld;
